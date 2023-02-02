@@ -4739,6 +4739,66 @@ td:last-child {
 .contact-list li {
 	padding-left: 0;
 }
-.projects{
-	width: 100%;
+/* .projects{
+margin-top: .5px solid grey;
+} */
+.footerClass{
+	display: flex;
+	background-color:#181818 ;
+}
+.footerClass section{
+	color: #f3ebdc;
+	padding:2%;
+	width:50%;
+	margin-right:4%;
+
+}
+.footerClass h2{
+	color: #f1a63b;
+	
+	
+
+}
+.footerClass section input{
+	width: 68%;
+}.footerClass section .submit{
+	width:40%;
+	text-align: center;
+}.section2{
+	margin-top: 2%;
+}
+.name-logo{
+	color:white;
+	padding-bottom:20px;
+
+}
+.editLink h3{
+	
+	text-decoration: underline dotted #f1a63b;
+	;
+}
+.footerClass .section1{
+	width:40%;
+	margin-left:5%;
+	margin-top:2%;
+}
+@media screen and (max-width:500px){
+	.footerClass{
+		flex-direction: column;
+       
+	}
+	.footerClass .section1,.section2{
+		width: 100%;
+	}.footerClass .section1 p{
+		max-width: 360px;
+	}
+	.footerClass .section2 input{
+		width:100%
+	}
+	.section2{
+		min-width: 360px;
+		align-self: center;
+		padding: 0%;
+	}
+	
 }
